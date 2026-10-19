@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehdi Global Visa Consultants | Azerbaijan Visa & Tours</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blue: '#0B2545',
+                            gold: '#D4AF37',
+                            lightgold: '#F3E5AB',
+                            dark: '#111827'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(rgba(11, 37, 69, 0.7), rgba(11, 37, 69, 0.8)), url('assets/images/maiden-tower.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        
+        .pulse-whatsapp {
+            animation: pulse-ring 2s infinite;
+        }
+        
+        @keyframes pulse-ring {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-gray-50">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-white/95 backdrop-blur shadow-md transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center gap-3">
+                    <img class="h-16 w-auto rounded-full shadow-sm" src="assets/images/logo.jpg" alt="Mehdi Global Logo">
+                    <div class="hidden sm:block">
+                        <h1 class="text-xl font-serif font-bold text-brand-blue leading-tight">Mehdi Global</h1>
+                        <p class="text-xs text-brand-gold font-semibold uppercase tracking-wider">Visa Consultants</p>
+                    </div>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#home" class="text-brand-blue hover:text-brand-gold font-medium transition-colors">Home</a>
+                    <a href="#packages" class="text-brand-blue hover:text-brand-gold font-medium transition-colors">Packages</a>
+                    <a href="#about" class="text-brand-blue hover:text-brand-gold font-medium transition-colors">About</a>
+                    <a href="#contact" class="text-brand-blue hover:text-brand-gold font-medium transition-colors">Contact</a>
+                    <a href="https://wa.me/923379320072" target="_blank" class="bg-brand-gold hover:bg-yellow-600 text-white px-6 py-2.5 rounded-full font-medium transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex items-center gap-2">
+                        <i class="fab fa-whatsapp text-lg"></i> Book Now
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-brand-blue hover:text-brand-gold focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home" class="block px-3 py-2 text-brand-blue font-medium">Home</a>
+                <a href="#packages" class="block px-3 py-2 text-brand-blue font-medium">Packages</a>
+                <a href="#about" class="block px-3 py-2 text-brand-blue font-medium">About</a>
+                <a href="#contact" class="block px-3 py-2 text-brand-blue font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg min-h-screen flex items-center pt-20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <span class="inline-block py-1 px-3 rounded-full bg-brand-gold/20 text-brand-lightgold border border-brand-gold/50 font-semibold text-sm mb-6 tracking-widest uppercase">
+                Premium Tours & Visas
+            </span>
+            <h1 class="text-4xl md:text-6xl font-serif font-bold text-white mb-6 leading-tight drop-shadow-lg">
+                Experience the Beauty of <br><span class="text-brand-gold">Azerbaijan</span>
+            </h1>
+            <p class="mt-4 text-xl md:text-2xl text-gray-200 mb-10 max-w-3xl mx-auto font-light drop-shadow">
+                Specially designed Baku Visit Packages. Perfect for families, couples & friends. ❤️
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="https://wa.me/923379320072" target="_blank" class="bg-brand-gold hover:bg-yellow-600 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all shadow-xl hover:shadow-2xl transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                    <i class="fab fa-whatsapp text-2xl"></i> Get Your Visa Now
+                </a>
+                <a href="#packages" class="bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all flex items-center justify-center">
+                    View Packages
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-serif font-bold text-brand-blue mb-4">Exclusive Baku Packages</h2>
+                <div class="h-1 w-24 bg-brand-gold mx-auto rounded"></div>
+                <p class="mt-6 text-gray-600 max-w-2xl mx-auto text-lg">Select the perfect itinerary for your unforgettable journey to the Land of Fire.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-10 max-w-5xl mx-auto">
+                <!-- Package 1 -->
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group border border-gray-100 flex flex-col">
+                    <div class="relative h-64 overflow-hidden">
+                        <img src="assets/images/yanar-dag.jpg" alt="Yanar Dag" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute top-4 right-4 bg-white px-4 py-1 rounded-full shadow text-sm font-bold text-brand-blue">
+                            Standard
+                        </div>
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-2xl font-bold text-brand-blue font-serif mb-1">Baku Visit Package</h3>
+                                <p class="text-gray-500 text-sm">3 Nights / 4 Days</p>
+                            </div>
+                        </div>
+                        <div class="text-3xl font-bold text-brand-gold mb-6">Rs. 185,000 <span class="text-sm text-gray-500 font-normal">/person</span></div>
+                        
+                        <ul class="space-y-3 mb-8 flex-1">
+                            <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-green-500 mr-3 text-lg"></i> Approved Baku Visit Visa</li>
+                            <li class="flex items-center text-gray-700"><i class="fas fa-plane-departure text-brand-blue mr-3 text-lg"></i> Direct Flight (ISB / LHE)</li>
+                            <li class="flex items-center text-gray-700"><i class="fas fa-hotel text-brand-blue mr-3 text-lg"></i> Comfortable Accommodation</li>
+                            <li class="flex items-center text-gray-700"><i class="fas fa-calendar-alt text-brand-blue mr-3 text-lg"></i> Valid for Sep, Oct & Nov</li>
+                            <li class="flex items-center text-gray-700"><i class="fas fa-sync-alt text-brand-blue mr-3 text-lg"></i> Flexible Itinerary</li>
+                            <li class="flex items-start text-gray-500 mt-4 pt-4 border-t border-gray-100 text-sm">
+                                <i class="fas fa-plus-circle text-gray-400 mr-2 mt-1"></i>
+                                <span><strong>Optional (On Demand):</strong> Airport Transfer, Tour Guide, City Tour & Transport, Breakfast</span>
+                            </li>
+                        </ul>
+                        
+                        <a href="https://wa.me/923379320072?text=Hi, I am interested in the Standard Baku Package (Rs. 185,000)." target="_blank" class="block w-full text-center bg-brand-blue hover:bg-blue-900 text-white py-3.5 rounded-xl font-semibold transition-colors mt-auto">
+                            Book This Package
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Package 2 -->
+                <div class="bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group border-2 border-brand-gold relative flex flex-col">
+                    <div class="absolute top-0 left-0 w-full bg-brand-gold text-white text-center py-1 text-sm font-bold uppercase tracking-wider z-10">
+                        Most Popular
+                    </div>
+                    <div class="relative h-64 overflow-hidden mt-6">
+                        <img src="assets/images/sea-breeze.jpg" alt="Baku Sea Breeze" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
+                        <div class="absolute top-4 right-4 bg-brand-gold px-4 py-1 rounded-full shadow text-sm font-bold text-white">
+                            Premium
+                        </div>
+                    </div>
+                    <div class="p-8 flex-1 flex flex-col">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-2xl font-bold text-brand-blue font-serif mb-1">Baku Premium Package</h3>
+                                <p class="text-gray-500 text-sm">3 Nights / 4 Days</p>
+                            </div>
+                        </div>
+                        <div class="text-3xl font-bold text-brand-gold mb-6">Rs. 250,000 <span class="text-sm text-gray-500 font-normal">/person</span></div>
+                        
+                        <ul class="space-y-3 mb-8 flex-1">
+                            <li class="flex items-center text-gray-700"><i class="fas fa-check-circle text-green-500 mr-3 text-lg"></i> Approved Baku Visit Visa</li>
+                            <li class="flex items-center text-gray-700"><i class="fas fa-plane-departure text-brand-blue mr-3 text-lg"></i> Direct Flight (ISB / LHE)</li>
+                            <li class="flex items-center text-gray-700"><i class="fas fa-hotel text-brand-blue mr-3 text-lg"></i> Comfortable Accommodation</li>
+                            <li class="flex items-center text-gray-700"><i class="fas fa-calendar-alt text-brand-blue mr-3 text-lg"></i> Valid for Sep, Oct & Nov</li>
+                            <li class="flex items-center text-gray-700"><i class="fas fa-sync-alt text-brand-blue mr-3 text-lg"></i> Flexible Itinerary</li>
+                            <li class="flex items-start text-brand-blue font-medium mt-4 pt-4 border-t border-gray-100 bg-blue-50/50 -mx-8 px-8 py-3">
+                                <i class="fas fa-star text-brand-gold mr-3 mt-1"></i>
+                                <span><strong>Included:</strong> Airport Transfer, Tour Guide, City Tour & Transport, Breakfast</span>
+                            </li>
+                        </ul>
+                        
+                        <a href="https://wa.me/923379320072?text=Hi, I am interested in the Premium Baku Package (Rs. 250,000)." target="_blank" class="block w-full text-center bg-brand-gold hover:bg-yellow-600 text-white py-3.5 rounded-xl font-semibold transition-colors mt-auto shadow-md">
+                            Book This Package
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-1/2">
+                    <div class="relative rounded-2xl overflow-hidden shadow-2xl">
+                        <img src="assets/images/shirvanshah.jpg" alt="Shirvanshah's Palace" class="w-full h-auto object-cover hover:scale-105 transition-transform duration-700">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                        <div class="absolute bottom-6 left-6 text-white">
+                            <h3 class="text-2xl font-serif font-bold">Your Gateway to the World</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl md:text-5xl font-serif font-bold text-brand-blue mb-6">Why Choose Mehdi Global?</h2>
+                    <div class="h-1 w-20 bg-brand-gold rounded mb-8"></div>
+                    <p class="text-gray-600 text-lg mb-6 leading-relaxed">
+                        At <strong>Mehdi Global Visa Consultants</strong>, we specialize in making your travel dreams a reality. With a dedicated focus on Azerbaijan, we ensure a seamless and hassle-free visa processing experience.
+                    </p>
+                    <p class="text-gray-600 text-lg mb-8 leading-relaxed">
+                        Whether you are traveling with family, a loved one, or friends, our curated packages guarantee comfortable accommodations, reliable transport, and memories that will last a lifetime.
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-brand-blue flex-shrink-0">
+                                <i class="fas fa-passport text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900">Fast Visa</h4>
+                                <p class="text-sm text-gray-500">Quick processing</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-brand-blue flex-shrink-0">
+                                <i class="fas fa-headset text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900">24/7 Support</h4>
+                                <p class="text-sm text-gray-500">Always here to help</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-brand-blue flex-shrink-0">
+                                <i class="fas fa-shield-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900">Reliable</h4>
+                                <p class="text-sm text-gray-500">Trusted consultancy</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-4">
+                            <div class="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center text-brand-blue flex-shrink-0">
+                                <i class="fas fa-map-marked-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900">Expert Guides</h4>
+                                <p class="text-sm text-gray-500">Best local tours</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-brand-blue text-white pt-16 pb-8 border-t-4 border-brand-gold">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+                
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center gap-3 mb-6">
+                        <img class="h-12 w-auto rounded-full bg-white p-1" src="assets/images/logo.jpg" alt="Logo">
+                        <div>
+                            <h3 class="text-xl font-serif font-bold">Mehdi Global</h3>
+                            <p class="text-xs text-brand-gold uppercase tracking-wider">Visa Consultants</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 mb-6 line-clamp-3">
+                        Your trusted partner for Azerbaijan visa processing and exclusive tour packages. Experience seamless travel with us.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/mehdiglobalvisaconsultants" target="_blank" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-brand-gold transition-colors text-white">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/mehdiglobalvisaconsultants" target="_blank" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-brand-gold transition-colors text-white">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/923379320072" target="_blank" class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-brand-gold transition-colors text-white">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-xl font-bold font-serif mb-6 text-white">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#home" class="text-gray-400 hover:text-brand-gold transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-brand-gold"></i> Home</a></li>
+                        <li><a href="#packages" class="text-gray-400 hover:text-brand-gold transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-brand-gold"></i> Baku Packages</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-brand-gold transition-colors flex items-center"><i class="fas fa-chevron-right text-xs mr-2 text-brand-gold"></i> About Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-xl font-bold font-serif mb-6 text-white">Contact Us</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1.5 mr-3 text-brand-gold"></i>
+                            <span class="text-gray-400">G-11 Markaz,<br>Islamabad, Pakistan</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-3 text-brand-gold"></i>
+                            <a href="tel:+923379320072" class="text-gray-400 hover:text-white transition-colors">+92 337 9320072</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-whatsapp mr-3 text-brand-gold text-lg"></i>
+                            <a href="https://wa.me/923379320072" target="_blank" class="text-gray-400 hover:text-white transition-colors">+92 337 9320072</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-3 text-brand-gold"></i>
+                            <a href="mailto:info@mehdiglobalvisaconsultants.com" class="text-gray-400 hover:text-white transition-colors">info@mehdiglobalvisaconsultants.com</a>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-globe mr-3 text-brand-gold"></i>
+                            <a href="http://mehdiglobalvisaconsultants.com/" class="text-gray-400 hover:text-white transition-colors">mehdiglobalvisaconsultants.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
+                <p>&copy; <span id="year"></span> Mehdi Global Visa Consultants. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Icon -->
+    <a href="https://wa.me/923379320072" target="_blank" class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:bg-[#20bd5a] transition-all pulse-whatsapp hover:scale-110" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Mobile Menu Toggle
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu on link click
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+
+        // Navbar shadow on scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 10) {
+                navbar.classList.add('shadow-md');
+                navbar.classList.replace('py-2', 'py-0');
+            } else {
+                navbar.classList.remove('shadow-md');
+            }
+        });
+    </script>
+</body>
+</html>
